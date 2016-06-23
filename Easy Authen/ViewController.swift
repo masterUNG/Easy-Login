@@ -97,10 +97,6 @@ class ViewController: UIViewController {
         
         }   // if
         
-        
-        
-        
-        
     }   //checkSpace
     
     func myAlertDialog(strTitle:String, strMessage:String) -> Void {

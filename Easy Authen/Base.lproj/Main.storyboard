@@ -66,11 +66,35 @@
                     <view key="view" contentMode="scaleToFill" id="sM5-va-uBh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ishihara_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="doh-Jy-iY3">
+                                <rect key="frame" x="77" y="123" width="260" height="262"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4yE-Q6-0xC">
+                                <rect key="frame" x="119" y="398" width="176" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypg-xo-djl">
+                                <rect key="frame" x="119" y="436" width="176" height="30"/>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Answer">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerButton:" destination="JF0-hD-YS7" eventType="touchUpInside" id="eF6-QJ-rlR"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="YkP-y0-fjS"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="answerTextField" destination="4yE-Q6-0xC" id="HEi-5I-Fqb"/>
+                        <outlet property="ishiharaImageView" destination="doh-Jy-iY3" id="la4-VZ-CLS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kGc-xD-gkr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -97,4 +121,7 @@
             <point key="canvasLocation" x="305" y="369"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ishihara_01.png" width="251" height="242"/>
+    </resources>
 </document>
