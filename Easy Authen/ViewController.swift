@@ -51,8 +51,39 @@ class ViewController: UIViewController {
             
             var trueUswer = ["test1", "test2", "test3"]
             var truePass = ["123", "456", "789"]
+            var index = 0
+            var status = false
+            var myTruePass = ""
+            
+            for myfor in trueUswer {
+                
+                if (strUser == myfor) {
+                    status = true
+                    myTruePass = truePass[index]
+                }   // if
+                
+                index += 1
+                
+            }   // for
             
             
+            if status {
+            
+                if (strPass == myTruePass) {
+                    
+                    print("Welcome")
+                    
+                } else{
+            
+                    myAlertDialog("Password False", strMessage: "Please Try Again Passoword False")
+                
+                }
+                
+            }else{
+            
+                myAlertDialog("ไม่มี User นี้", strMessage: "ไม่มี User นี่ในฐานข้อมูลของเรา")
+            
+            }
             
             
             
