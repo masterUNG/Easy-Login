@@ -14,6 +14,7 @@
 		C45445341D1BB93800CC9214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45445321D1BB93800CC9214 /* LaunchScreen.storyboard */; };
 		C454453F1D1BB93900CC9214 /* Easy_AuthenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C454453E1D1BB93900CC9214 /* Easy_AuthenTests.swift */; };
 		C454454A1D1BB93900CC9214 /* Easy_AuthenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45445491D1BB93900CC9214 /* Easy_AuthenUITests.swift */; };
+		C45445581D1BD22100CC9214 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45445571D1BD22100CC9214 /* ServiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C45445451D1BB93900CC9214 /* Easy AuthenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy AuthenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45445491D1BB93900CC9214 /* Easy_AuthenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_AuthenUITests.swift; sourceTree = "<group>"; };
 		C454454B1D1BB93900CC9214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45445571D1BD22100CC9214 /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				C45445291D1BB93800CC9214 /* AppDelegate.swift */,
+				C45445571D1BD22100CC9214 /* ServiceViewController.swift */,
 				C454452B1D1BB93800CC9214 /* ViewController.swift */,
 				C454452D1D1BB93800CC9214 /* Main.storyboard */,
 				C45445301D1BB93800CC9214 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				C454452C1D1BB93800CC9214 /* ViewController.swift in Sources */,
 				C454452A1D1BB93800CC9214 /* AppDelegate.swift in Sources */,
+				C45445581D1BD22100CC9214 /* ServiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
